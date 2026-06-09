@@ -1,54 +1,25 @@
-/* The code below centers the text of all h1's on the page. */
+/* HEADER and BODY */
 h1 {
     text-align:center;
     margin:5px;
     color: #A8C38C;
     font-size: 50px;
 }
-
-/* The code below centers all images on the page and gives them a width of 400px. */
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:400px;
-}
-
-/* The code below centers the text of all h2's on the page. */
 h2 {
     text-align:center;
     margin:5px;
     color: #A8C38C;
     font-size: 30px;
 }
-
-/* The code below aligns all the sections horizontally on the bottom. */
-.section-container {
-    display:flex;
-    justify-content:space-between;
-}
-
-/* The code below a solid black border to section and puts space between them (the margin). */
-.section {
-    border: 5px #A8C38C solid;
-    margin:5px;
-    color: #A8C38C;
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 24px;
-    background-color: #594e4a;
-}
-
 body {
     background-color:#4F3B34;
 }
-
-.Link {
-    color: #b2e2f0;
-    font-size: 20px;
-    text-align: center;
-    cursor: pointer;
+/* IMAGES */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
 }
 .glasses {
     position: fixed;
@@ -66,6 +37,40 @@ body {
     width: 150px;
     cursor: pointer;
 }
+/* SECTIONS */
+.section-container {
+    display:flex;
+    justify-content:space-between;
+}
+.section {
+    border: 5px #A8C38C solid;
+    margin:5px;
+    color: #A8C38C;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #594e4a;
+}
+.section:hover {
+  background-color:#594e4a;
+  font-size: 28px;
+  size: 28px;
+}
+/* LINKS */
+.Link {
+    color: #b2e2f0;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.Link:hover {
+  background-color:#5c5755;
+  font-size: 23px;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+}
+/* LANGUAGE STUFF */
 .navbar {
     position: fixed;
     font-size: 30px;
@@ -80,14 +85,18 @@ body {
 .Lang:hover {
   background-color:#594e4a;
   font-size: 23px;
+  animation-name: myAnimation;
+  animation-duration: 3s;
 }
-.section:hover {
-  background-color:#594e4a;
-  font-size: 28px;
-  size: 28px;
-}
+/* FOOTER */
 .footer {
     font-size: 30px;
     color: #A8C38C;
     text-align: center;
+}
+
+/* ANIMATION */
+@keyframes myAnimation {
+  from {font-size: 23px;}
+  to {font-size: 33px;}
 }
