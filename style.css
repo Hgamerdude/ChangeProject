@@ -37,6 +37,7 @@ h2 {
     text-align: center;
     margin-top: 10px;
     font-size: 24px;
+    background-color: #594e4a;
 }
 
 body {
@@ -49,13 +50,44 @@ body {
     text-align: center;
     cursor: pointer;
 }
-.person {
+.glasses {
     position: fixed;
-    top: 900px;
-    right: 10px;
+    top: 870px;
+    right: 22px;
     width: 100px;
+    cursor: pointer;
+    border-radius: 20%;
+    shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.circle {
+    position: fixed;
+    top: 810px;
+    right: 0.5px;
+    width: 150px;
     cursor: pointer;
 }
 .navbar {
     position: fixed;
+    font-size: 30px;
+    color: #A8C38C;
+}
+.Lang {
+    color: #A8C38C;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.Lang:hover {
+  background-color:#594e4a;
+  font-size: 23px;
+}
+.section:hover {
+  background-color:#594e4a;
+  font-size: 28px;
+  size: 28px;
+}
+.footer {
+    font-size: 30px;
+    color: #A8C38C;
+    text-align: center;
 }
