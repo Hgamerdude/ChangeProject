@@ -38,12 +38,24 @@ h2 {
     margin-top: 10px;
     font-size: 24px;
 }
+
 body {
     background-color:#4F3B34;
 }
 
 .Link {
     color: #b2e2f0;
-    size: 20px;
+    font-size: 20px;
     text-align: center;
+    cursor: pointer;
+}
+.person {
+    position: fixed;
+    top: 900px;
+    right: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.navbar {
+    position: fixed;
 }
