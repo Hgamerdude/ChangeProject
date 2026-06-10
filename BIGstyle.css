@@ -3,13 +3,13 @@ h1 {
     text-align:center;
     margin:5px;
     color: #A8C38C;
-    font-size: 50px;
+    font-size: 70px;
 }
 h2 {
     text-align:center;
     margin:5px;
     color: #A8C38C;
-    font-size: 30px;
+    font-size: 45px;
 }
 body {
     background-color:#4F3B34;
@@ -50,24 +50,24 @@ img {
     display: block;
     text-align: center;
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 36px;
     background-color: #594e4a;
 }
 .section:hover {
   background-color:#594e4a;
-  font-size: 28px;
-  size: 28px;
+  font-size: 38px;
+  size: 40px;
 }
 /* LINKS */
 .Link {
     color: #b2e2f0;
-    font-size: 20px;
+    font-size: 35px;
     text-align: center;
     cursor: pointer;
 }
 .Link:hover {
   background-color:#5c5755;
-  font-size: 23px;
+  font-size: 35px;
   animation-name: myAnimation;
   animation-duration: 2s;
 }
@@ -79,25 +79,25 @@ img {
 }
 .Lang {
     color: #A8C38C;
-    font-size: 20px;
+    font-size: 34px;
     text-align: center;
     cursor: pointer;
 }
 .Lang:hover {
   background-color:#594e4a;
-  font-size: 23px;
+  font-size: 35px;
   animation-name: myAnimation;
   animation-duration: 3s;
 }
 /* FOOTER */
 .footer {
-    font-size: 30px;
+    font-size: 40px;
     color: #A8C38C;
     text-align: center;
 }
 
 /* ANIMATION */
 @keyframes myAnimation {
-  from {font-size: 23px;}
-  to {font-size: 33px;}
+  from {font-size: 35px;}
+  to {font-size: 50px;}
 }
